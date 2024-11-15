@@ -18,7 +18,7 @@ export const redis =
   });
 
 (async () => {
-  const PORT = 3000;
+  const PORT = 8080;
 
   await fastify.register(FastifyCors, {
     origin: '*',
